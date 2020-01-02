@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff7f6cf"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/background"
+        android:text="SELECT SUBSTATION"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ff000000"/>
+
+
+    <Button
+        android:id="@+id/sub1button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="SUBSTATION 1: UPPER BROOK STREET">
+
+        />
+    </Button>
+
+    <Button
+        android:id="@+id/sub2button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBSTATION 2: BRIDGEFORD STREET"></Button>
+
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="STATUS"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/edittextstatus"
+        />
+
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:text="ELECTRICAL PARAMETERS"/>
+
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridView1"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="50dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </GridView>
+
+
+
+</LinearLayout>
